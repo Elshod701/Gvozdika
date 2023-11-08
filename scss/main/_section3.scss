@@ -1,0 +1,133 @@
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+.flowers-section {
+  margin-top: 100px;
+  .ToCatalog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .SaleForFlowers {
+    .flowers-section-title {
+      color: var(--green, #03453b);
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 36px */
+    }
+    .flowers-section-info {
+      color: var(--green-dark, #00554e);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      span {
+        color: var(--red, #e12317);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 16px */
+        margin-right: 4px;
+      }
+    }
+  }
+}
+
+.abc {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.cards_of_flowers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &_1 {
+    padding: 10px;
+    margin-top: 29px;
+    width: 310px;
+    height: 470px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+
+    .main-flower-svg {
+      position: relative;
+    }
+    .heart-logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    .xit_prodaj {
+      border-radius: 4px;
+      background: var(--Brown, #ae8646);
+      color: var(--White, #ebebeb);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      display: inline-flex;
+      padding: 10px;
+      justify-content: flex-end;
+      align-items: flex-end;
+      gap: 10px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    &_title {
+      color: var(--black, #333);
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+    }
+    .a125Byn {
+      color: var(--green, #03453b);
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+    button {
+      color: var(--White, #ebebeb);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: flex;
+      width: 290px;
+      padding: 15px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 4px;
+      background: var(--green-dark, #00554e);
+      margin-bottom: 15px;
+    }
+    .BuyInOneClick {
+      color: var(--green, #03453b);
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

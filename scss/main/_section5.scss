@@ -1,0 +1,78 @@
+.second_about_us {
+  .container {
+    .second_about_us_title {
+      color: var(--green, #03453b);
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 36px */
+      margin-bottom: 50px;
+    }
+    .first_about_us {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 50px;
+      margin-bottom: 11px;
+      p {
+        font-family: sans-serif;
+        color: var(--black, #333);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%; /* 23.4px */
+      }
+    }
+  }
+}
+
+.rating {
+  margin-top: 50px;
+  &_title {
+    color: var(--green, #03453b);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 36px */
+  }
+  .rating-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-1 {
+      margin-top: 50px;
+      display: flex;
+      width: 530px;
+      padding: 30px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      background: #fff;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+      p {
+        color: var(--grey, #bababa);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+.user-panel {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.kkk {
+  p {
+    margin-left: 6px;
+    color: var(--black, #333);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+}
